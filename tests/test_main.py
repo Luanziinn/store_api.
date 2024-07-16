@@ -29,3 +29,4 @@ async def test_get_products_by_price_range():
     assert response.status_code == 200
     assert len(response.json()) == 1
     assert response.json()[0]["name"] == "Expensive Product"
+
