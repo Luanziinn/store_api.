@@ -1,2 +1,1 @@
-# store_api.
-Desafio DIO: Criando Uma API Com FastAPI Utilizando TDD
+Repositório referente ao desafio do bootcamp Python AI Backend Developer DIO.
