@@ -17,3 +17,4 @@ async def update_product_route(id: str, product: ProductCreate, db=Depends(get_d
 @router.get("/products", response_model=List[ProductDB])
 async def get_products_route(min_price: float = 0, max_price: float = 1000000, db=Depends(get_db)):
     return await get_products_by_price_range(db, min_price, max_price)
+
